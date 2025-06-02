@@ -86,7 +86,7 @@ DATABASES = {
     }
 }
 
-DATABASES['default'] = dj_database_url.parse('postgresql://skin_predict_user:b05fbt7NcAPNF33633HpKGNONtVSg9tI@dpg-cso5c1ij1k6c73bc0scg-a.oregon-postgres.render.com/skin_predict')
+# DATABASES['default'] = dj_database_url.parse('postgresql://skin_predict_user:b05fbt7NcAPNF33633HpKGNONtVSg9tI@dpg-cso5c1ij1k6c73bc0scg-a.oregon-postgres.render.com/skin_predict')
 
 # Password validation
 # https://docs.djangoproject.com/en/5.0/ref/settings/#auth-password-validators
