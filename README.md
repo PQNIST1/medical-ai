@@ -15,9 +15,6 @@
 ```bash
 git clone https://github.com/PQNIST1/Medical-Ai.git
 ```
-```bash
-cd Medical-Ai
-```
 
 ## 🔧 Setup Virtual Environment
 ### Step 2: Delete the old virtual environment (if exists)
@@ -38,7 +35,7 @@ python -m venv .venv
 ## 📂 Navigate to Project Directory
 ### Step 5: Go to the main project directory
 ```bash
-cd gr-project
+cd Medical-Ai
 ```
 
 ## 📦 Install Dependencies
