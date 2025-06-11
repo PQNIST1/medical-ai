@@ -2,7 +2,7 @@
 
 ## 📚 Index
 
-- [⚙️ Clone the projec](#-colne-the-project)
+- [⚙️ Clone the project](#-colne-the-project)
 - [🔧 Setup Virtual Environment](#-setup-virtual-environment)
 - [📂 Navigate to Project Directory](#-navigate-to-project-directory)
 - [📦 Install Dependencies](#-install-dependencies)
@@ -10,10 +10,10 @@
 - [🧠 Train Face Recognition Model](#-train-face-recognition-model)
 
 
-## ⚙️ Clone the projec
+## ⚙️ Clone the project
 ### Step 1: Clone
 ```bash
-Remove-Item -Recurse -Force .venv
+git clone https://github.com/PQNIST1/Medical-Ai.git
 ```
 
 ## 🔧 Setup Virtual Environment
