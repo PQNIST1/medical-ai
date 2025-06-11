@@ -1,15 +1,29 @@
-Step 1: Delete the old .venv (if necessary)
+🚀 Getting Started
+🔧 Setup Virtual Environment
+# Step 1: Delete the old virtual environment (if exists)
 Remove-Item -Recurse -Force .venv
-Step 2: Create a new virtual environment in the correct directory
+
+# Step 2: Create a new virtual environment
 python -m venv .venv
-Step 3: Activate the virtual environment
+
+# Step 3: Activate the virtual environment
 .venv\Scripts\activate
-Step 4: Go to the directory
+
+📂 Navigate to Project Directory
+# Step 4: Go to the main project directory
 cd gr-project
-Step 5: Install requirements
+
+📦 Install Dependencies
+# Step 5: Install required Python packages
 pip install -r requirements.txt
-Step 6: Run the program
+
+▶️ Run the Server
+# Step 6: Start the Django development server
 python manage.py runserver
-Train Model
-Step 1: cd face_recognition_project
-Step 2: python train_and_save_model.py
+
+🧠 Train Face Recognition Model
+# Step 1: Navigate to the face recognition module
+cd face_recognition_project
+
+# Step 2: Train and save the model
+python train_and_save_model.py
