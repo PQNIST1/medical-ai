@@ -1,4 +1,4 @@
-🚀 Getting Started
+#🚀 Getting Started
 🔧 Setup Virtual Environment
 # Step 1: Delete the old virtual environment (if exists)
 Remove-Item -Recurse -Force .venv
