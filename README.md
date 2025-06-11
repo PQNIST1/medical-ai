@@ -10,7 +10,7 @@
 - [▶️ Run the Server](#️-run-the-server)
 - [🧠 Train Face Recognition Model](#-train-face-recognition-model)
 
-## ⚙️ Clone The Project
+## ⚙️ Clone The Project <a name="clone-the-project"></a>
 ### Step 1: Clone
 ```bash
 git clone https://github.com/PQNIST1/Medical-Ai.git
