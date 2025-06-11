@@ -2,6 +2,7 @@
 
 ## 📚 Index
 
+- [⚙️ Clone the projec](#-colne-the-project)
 - [🔧 Setup Virtual Environment](#-setup-virtual-environment)
 - [📂 Navigate to Project Directory](#-navigate-to-project-directory)
 - [📦 Install Dependencies](#-install-dependencies)
@@ -9,39 +10,48 @@
 - [🧠 Train Face Recognition Model](#-train-face-recognition-model)
 
 
-## 🔧 Setup Virtual Environment
-### Step 1: Delete the old virtual environment (if exists)
+## ⚙️ Clone the projec
+### Step 1: Clone
 ```bash
 Remove-Item -Recurse -Force .venv
 ```
 
-### Step 2: Create a new virtual environment
+## 🔧 Setup Virtual Environment
+### Step 2: Delete the old virtual environment (if exists)
+```bash
+Remove-Item -Recurse -Force .venv
+```
+
+### Step 3: Create a new virtual environment
 ```bash
 python -m venv .venv
 ```
 
-### Step 3: Activate the virtual environment
+### Step 4: Activate the virtual environment
 ```bash
 .venv\Scripts\activate
 ```
 
 ## 📂 Navigate to Project Directory
-### Step 4: Go to the main project directory
+### Step 5: Go to the main project directory
 ```bash
 cd gr-project
 ```
 
 ## 📦 Install Dependencies
-### Step 5: Install required Python packages
+### Step 6: Install required Python packages
 ```bash
 pip install -r requirements.txt
 ```
 
 ## ▶️ Run the Server
-### Step 6: Start the Django development server
+### Step 7: Start the Django development server
 ```bash
 python manage.py runserver
 ```
+### Step 7: Open the server
+http://127.0.0.1:8000
+
 ## 🧠 Train Face Recognition Model
 ### Step 1: Navigate to the face recognition module
 ```bash
