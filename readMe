@@ -1,16 +1,15 @@
-Bước 1: Xoá .venv cũ (nếu cần)
+Step 1: Delete the old .venv (if necessary)
 Remove-Item -Recurse -Force .venv
-Bước 2: Tạo môi trường ảo mới trong đúng thư mục
+Step 2: Create a new virtual environment in the correct directory
 python -m venv .venv
-Bước 3: Kích hoạt môi trường ảo
+Step 3: Activate the virtual environment
 .venv\Scripts\activate
-Bước 4: Truy cập vào thư mục
+Step 4: Go to the directory
 cd gr-project
-Bước 5: Cài đặt requirements
+Step 5: Install requirements
 pip install -r requirements.txt
-Bước 6 : Chạy chương trình
+Step 6: Run the program
 python manage.py runserver
-
 Train Model
-Bước 1: cd face_recognition_project 
-Bước 2: python train_and_save_model.py   
+Step 1: cd face_recognition_project
+Step 2: python train_and_save_model.py
