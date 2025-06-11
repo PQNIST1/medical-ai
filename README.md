@@ -3,15 +3,18 @@
 ## 📚 Index
 
 
+- [⚙️ Clone The Project](#clone-the-project)
 - [🔧 Setup Virtual Environment](#-setup-virtual-environment)
 - [📂 Navigate to Project Directory](#-navigate-to-project-directory)
 - [📦 Install Dependencies](#-install-dependencies)
-- [⚙️ Clone The Project](#-clone-the-project)
 - [▶️ Run the Server](#️-run-the-server)
 - [🧠 Train Face Recognition Model](#-train-face-recognition-model)
 
-
-
+## ⚙️ Clone The Project
+### Step 1: Clone
+```bash
+git clone https://github.com/PQNIST1/Medical-Ai.git
+```
 
 ## 🔧 Setup Virtual Environment
 ### Step 2: Delete the old virtual environment (if exists)
@@ -39,11 +42,6 @@ cd gr-project
 ### Step 6: Install required Python packages
 ```bash
 pip install -r requirements.txt
-```
-## ⚙️ Clone The Project
-### Step 1: Clone
-```bash
-git clone https://github.com/PQNIST1/Medical-Ai.git
 ```
 
 ## ▶️ Run the Server
